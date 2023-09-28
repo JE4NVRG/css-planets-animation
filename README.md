@@ -14,6 +14,7 @@ O projeto foi inicialmente criado em 18 de junho de 2022.
 
 1. Clone o repositório para o seu computador.
 2. Abra o arquivo `index.html` em um navegador de sua escolha.
+3. Ou [clique aqui para visualizar o projeto em ação!](https://cosmiccss.je4ndev.com/)
 
 ## Tecnologias Utilizadas
 
@@ -22,9 +23,8 @@ O projeto foi inicialmente criado em 18 de junho de 2022.
 
 ## Autor
 
-JE4N CARLOS
+JE4NDEV
 
 ## Agradecimentos
 
 Agradeço a todos que me ajudaram e apoiaram durante o desenvolvimento deste projeto.
-
