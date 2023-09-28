@@ -103,20 +103,11 @@ body {
   position: absolute;
   width: 340px;
   height: 340px;
-  background-image: url(earth.jpg);
+  background-image: url(../imagens/earth.jpg);
   border-radius: 50%;
   background-size: cover;
   box-shadow: inset 0 0 20px #03a9f4, 0 0 120px #03a9f4;
-  animation: animateEarth 20s linear infinite;
-}
-
-@keyframes animateEarth {
-  0% {
-    background-position: 0;
-  }
-  100% {
-    background-position: 162.5%;
-  }
+  animation: rotatePlanet 20s linear infinite;
 }
 
 /* Estilos específicos para o planeta Marte */
@@ -178,19 +169,20 @@ body {
   position: absolute;
   width: 340px;
   height: 340px;
-  background-image: url(mars.jpg);
+  background-image: url(../imagens/mars.jpg);
   border-radius: 50%;
   background-size: cover;
   box-shadow: inset 0 0 20px #ff5732, 0 0 120px #ff5732;
-  animation: mars 6s linear infinite;
+  animation: rotatePlanet 20s linear infinite;
 }
 
-@keyframes mars {
+/* Animação para girar os planetas */
+@keyframes rotatePlanet {
   0% {
-    background-position: 0;
+    transform: rotate(0deg);
   }
   100% {
-    background-position: -340px;
+    transform: rotate(360deg);
   }
 }
 
